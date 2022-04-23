@@ -12,5 +12,5 @@ npm run build
 首先使用 `scrips` 目录下的 `gendata.py` 脚本将 `npz` 文件转换成 `json` 文件，然后在应用中上传 `json` 文件即可看到可视化模型。
 
 ```sh
-./scripts/data.py ./scripts/data_partial.npy > src/data.json
+./scripts/gendata.py ./scripts/data_partial.npy > src/data.json
 ```
