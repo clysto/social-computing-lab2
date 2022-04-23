@@ -1,0 +1,38 @@
+html,
+body,
+#app,
+#sigma-container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  overflow: hidden;
+}
+
+.control {
+  width: 300px;
+  position: absolute;
+  padding: 10px;
+  margin: 5px;
+  background-color: rgba(84, 84, 84, 0.566);
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.control .tips,
+.status {
+  font-size: 14px;
+}
+
+.status {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(84, 84, 84, 0.566);
+}

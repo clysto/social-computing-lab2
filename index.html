@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>社会计算实验二可视化面板</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="control">
+        <input type="file" id="file" />
+        <div>
+          <p class="tips">
+            过滤器：输入需要过滤用户的id。可以是多个id，以逗号分隔。
+          </p>
+          <input type="text" placeholder="search" id="search" />
+        </div>
+        <div>
+          <button id="start">Start Filter</button>
+          <button id="reset">Reset Filter</button>
+        </div>
+      </div>
+      <div id="sigma-container"></div>
+      <div class="status">
+        <div id="path"></div>
+        <div style="flex: 1"></div>
+        <div>社会计算实验二可视化面板</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
